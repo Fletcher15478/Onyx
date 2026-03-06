@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Live domain: www.onyxmgmtwv.com
+Sitemap: https://www.onyxmgmtwv.com/sitemap.xml
+
