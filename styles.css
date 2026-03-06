@@ -357,7 +357,8 @@ a {
   height: auto;
   max-height: 340px;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: top center;
 }
 
 .hero-card-header {
@@ -658,6 +659,12 @@ body.theme-light {
     order: -1;
     max-width: 100%;
     margin: 0 auto 16px;
+  }
+
+  /* Show full portrait on mobile without cropping */
+  .hero-photo img {
+    max-height: none;
+    object-fit: contain;
   }
 
   .grid {
