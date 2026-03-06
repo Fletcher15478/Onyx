@@ -573,6 +573,37 @@ a {
   background: transparent;
 }
 
+/* Dark mode: rentals section white and highly visible */
+body:not(.theme-light) #listings .section-kicker {
+  color: #1f2937;
+}
+body:not(.theme-light) #listings .section-title {
+  color: #111827;
+}
+body:not(.theme-light) #listings .section-subtitle {
+  color: #4b5563;
+}
+body:not(.theme-light) #listings .iframe-shell {
+  background: #ffffff;
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+body:not(.theme-light) #listings .iframe-note {
+  color: #374151;
+}
+body:not(.theme-light) #listings .frame-inner {
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+body:not(.theme-light) #listings.section {
+  background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 12%, #ffffff 88%, #f3f4f6 100%);
+  border-radius: 24px;
+  padding: 32px 20px;
+  margin: 24px auto;
+  max-width: 1120px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
 /* FOOTER */
 .footer {
   border-top: 1px solid var(--border-subtle);
